@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="248" viewBox="0 0 480 248" role="img" aria-labelledby="title desc">
+  <title id="title">STAGOR</title>
+  <desc id="desc">From interface to infrastructure. A lime signal runs through a midnight-blue circuit.</desc>
+  <defs>
+    <linearGradient id="ink" x2="100%" y2="100%">
+      <stop stop-color="#101725"/>
+      <stop offset="1" stop-color="#151e34"/>
+    </linearGradient>
+    <pattern id="grid" x="28" y="172" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M18 0H0V18" fill="none" stroke="#29374f"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="248" rx="14" fill="url(#ink)"/>
+  <rect x=".5" y=".5" width="479" height="247" rx="13.5" fill="none" stroke="#35435c"/>
+  <path d="M28 54H452M28 172H452" fill="none" stroke="#35435c"/>
+  <circle cx="32" cy="31" r="4" fill="#d4ffa4"/>
+  <text x="47" y="36" fill="#a6b5ce" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="1.6">@STAGORO4KA</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="25" y="119" fill="#f4f7ff" font-size="75" font-weight="800" letter-spacing="-4">STAGOR</text>
+    <text x="29" y="151" fill="#bfcce4" font-size="24">From interface to infrastructure.</text>
+  </g>
+  <rect x="28" y="173" width="424" height="54" fill="url(#grid)"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 208H100L118 190H172M208 226H262L280 208H316L334 190H424" stroke="#526887" stroke-width="1.5"/>
+    <path d="M46 226H136L172 190H226L244 208H334L352 226H424" stroke="#d4ffa4" stroke-width="2.5"/>
+  </g>
+  <g fill="#171f30" stroke="#d4ffa4" stroke-width="2">
+    <circle cx="46" cy="226" r="5"/>
+    <circle cx="244" cy="208" r="7"/>
+    <circle cx="424" cy="226" r="5"/>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+  <title id="title">STAGOR</title>
+  <desc id="desc">From interface to infrastructure. A lime signal runs through a midnight-blue circuit.</desc>
+  <defs>
+    <linearGradient id="ink" x2="100%" y2="100%">
+      <stop stop-color="#101725"/>
+      <stop offset="1" stop-color="#151e34"/>
+    </linearGradient>
+    <pattern id="grid" x="586" y="70" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#29374f" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="grid-fade">
+      <stop stop-color="#000"/>
+      <stop offset=".18" stop-color="#fff"/>
+      <stop offset=".83" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="grid-mask" maskUnits="userSpaceOnUse" x="538" y="70" width="420" height="192">
+      <rect x="538" y="70" width="420" height="192" fill="url(#grid-fade)"/>
+    </mask>
+  </defs>
+
+  <rect width="1000" height="320" rx="16" fill="url(#ink)"/>
+  <rect x=".5" y=".5" width="999" height="319" rx="15.5" fill="none" stroke="#35435c"/>
+  <path d="M48 70H952M48 262H952" fill="none" stroke="#35435c"/>
+
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="2" fill="#a6b5ce">
+    <circle cx="53" cy="41" r="4" fill="#d4ffa4"/>
+    <text x="68" y="46">@STAGORO4KA</text>
+    <text x="952" y="46" text-anchor="end">DEVELOPER PROFILE</text>
+    <text x="48" y="292">WEB / API / AUTOMATION</text>
+    <text x="952" y="292" text-anchor="end">FIG. 01 / SIGNAL PATH</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="44" y="185" fill="#f4f7ff" font-size="108" font-weight="800" letter-spacing="-6">STAGOR</text>
+    <text x="50" y="227" fill="#bfcce4" font-size="24">From interface to infrastructure.</text>
+  </g>
+
+  <rect x="538" y="70" width="420" height="192" fill="url(#grid)" mask="url(#grid-mask)"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M586 214H658L706 166H826L874 118H946M634 94H706L778 166H898M658 238H730L778 190H826L874 238H922" stroke="#526887" stroke-width="1.5"/>
+    <path d="M586 166H634L682 118H730L778 166H826L874 214H922" stroke="#d4ffa4" stroke-width="3"/>
+  </g>
+
+  <g fill="#151e34" stroke="#7790b2" stroke-width="1.6">
+    <circle cx="634" cy="94" r="4"/>
+    <circle cx="586" cy="214" r="4"/>
+    <circle cx="658" cy="238" r="4"/>
+    <circle cx="946" cy="118" r="4"/>
+    <circle cx="898" cy="166" r="4"/>
+    <circle cx="922" cy="238" r="4"/>
+  </g>
+
+  <g fill="#171f30" stroke="#d4ffa4" stroke-width="2.5">
+    <circle cx="586" cy="166" r="6"/>
+    <circle cx="706" cy="118" r="6"/>
+    <circle cx="922" cy="214" r="6"/>
+  </g>
+  <circle cx="778" cy="166" r="14" fill="#182a28" stroke="#d4ffa4" stroke-width="1.5"/>
+  <circle cx="778" cy="166" r="4" fill="#d4ffa4"/>
+</svg>
